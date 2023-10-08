@@ -1,0 +1,46 @@
+*{
+    background-color: pink;
+    border: 10px;
+    border-color: red;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h1:hover{
+    color: black;
+}
+h2{
+    font-size: 25px;
+}
+img{
+    width: 30%;
+}
+
+.image_conteiner{
+    text-align: center;
+}
+.quote_text{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    display: block;
+    width: 400px;
+}
+
+.principles{
+    margin: 0 auto;
+    text-align: left;
+}
+
+.conteiner{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+
+footer{
+    text-align: center;
+}
+
+
