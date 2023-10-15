@@ -3,11 +3,13 @@
       font-size: 1.5em;
       color: white;
       margin: 40px;
+      padding: 25px;
     }
   
     h1 {
       color: steelblue;
       text-align: center;
+      margin: 50px 0;
     }
   
     img {
@@ -19,7 +21,7 @@
   
     p {
       padding: 10px;
-      width: 80%;
+      width: 80%;background-color: steelblue;
     }
     
     .main-para {
@@ -37,6 +39,8 @@
       background-color: steelblue;
       color: white;
       padding: 10px;
+      background-color: steelblue;
+      padding: 25px;
     }
 
     main p {
@@ -49,10 +53,16 @@
       font-size: 20px;
       margin: 20px auto;
       display: block;
+      padding: 25px;
+      
     }
 
     a:hover {
       background-color: white;
       color: steelblue;
+    }
+
+    body{
+      margin: 0;
     }
 
