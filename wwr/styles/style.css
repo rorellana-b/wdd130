@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+:root{
+  --heading-font: "Ubuntu";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,12 +15,16 @@ nav a{
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
+    font-family: var(--heading-font);
 }
 #hero-msg h4{
     text-align: center;
+    font-family: var(--heading-font);
+    
 }
 
 .button-box{
@@ -21,6 +33,7 @@ nav a{
 
 main section{
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 #background{
@@ -28,6 +41,10 @@ main section{
 }
 body{
     background-color: #DFEFCA;
+    font-family: var(--heading-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -42,28 +59,48 @@ nav a:hover{
     color: blue;
     text-decoration: none;
     text-align: center;
+    font-family: var(--heading-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.booking{
+    text-align: center;
 }
 .book:hover , .join:hover{
     background-color: #AFC2D5;
     color: white;
+    text-align: center;
 }
 #background{
     background-color: lightslategray;
+    margin-top: 200px;
 }
 .msg{
     background-color: #CCDDD3;
+    padding: 35px;
+    margin-top: 50px;
 }
 footer{
     background-color: #CCDDD3;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: blue;
     text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: lightslategray;
     text-align: center;
+    font-family: var(--heading-font);
+}
+h2{
+    margin: 0;
 }
 
 .msg h2{
@@ -72,18 +109,24 @@ h4{
 
 .msg p{
     color: blue;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: blue;
     text-decoration: none;
 }
+footer .social img{
+    padding-top: 15px;
+}
 footer a:hover{
     color: white;
-    background-color: #AFC2D5;
+    background-color: #CCDDD3;
     text-decoration: underline;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -96,3 +139,18 @@ footer p{
     text-decoration: underline;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid blue;
+}
+main section img{
+    box-sizing: border-box;
+}
+.mountains{
+    margin-top: 50px;
+}
