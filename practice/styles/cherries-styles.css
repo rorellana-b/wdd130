@@ -1,0 +1,24 @@
+.conteiner{
+    background-color: gray;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+
+}
+
+h2{
+    color: red;
+    font-size: 80px;
+    position: relative;
+    bottom: -400px;
+    text-align: center;
+}
+h1{
+    grid-column: 1/2;
+    z-index: -1;
+    font-size: 150px;
+    position: relative;
+}
