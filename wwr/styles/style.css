@@ -177,6 +177,7 @@ footer p{
     width: 100%;
     box-shadow: 8px 8px 10px black;
     transition: transform .10s;
+    border: 10px solid gray;
 
 }
 .card-img:hover{
