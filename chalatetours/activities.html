@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
         <a href="index.html" id="logo_link">
@@ -24,39 +26,75 @@
             <a href="#">kids</a>
         </div>
         <h1>Hiking mountains</h1>
-        <section class="activities">           
-            <P>You can enjoy camping and hiking in the mountains with the support of local guides for a value of $9.00 in addition to finding food from $3 per person</P>
+        <section class="activities">
+            <P>You can enjoy camping and hiking in the mountains with the support of local guides for a value of $9.00
+                in addition to finding food from $3 per person</P>
         </section>
         <div id="eramon-camping">
             <img id="camping-img" src="images/camping.jpg" alt="camping">
         </div>
         <h1>Helicopter Trip</h1>
-        <section class="activities">           
-            <P>If you want to live an extreme experience you can ask for a Helicopter trip in the area so you can enjoy a wonderful view.</P>
+        <section class="activities">
+            <P>If you want to live an extreme experience you can ask for a Helicopter trip in the area so you can enjoy
+                a wonderful view.</P>
         </section>
         <div id="eramon-helicoter">
             <img id="helicopter-img" src="images/helicotertrip.jpg" alt="helicoptertrip">
         </div>
 
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
 
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/chalatetours/images/camping.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/chalatetours/images/canopy_maya.png" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/chalatetours/images/beach.png" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </main>
     <footer>
         <p>Eramon Mountain &copy; 2023 - Ronal Orellana</p>
-            <p><a href="index.html">Home</a></p>
-            <p><a href="activities.html">Activities</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="activities.html">Activities</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>
