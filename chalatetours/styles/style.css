@@ -275,9 +275,3 @@ footer{
   from {opacity: .4}
   to {opacity: 1}
 }
-
-.mySlidesfade{
-    object-fit: cover;
-    width: 100%;
-    height: 800px;
-}
